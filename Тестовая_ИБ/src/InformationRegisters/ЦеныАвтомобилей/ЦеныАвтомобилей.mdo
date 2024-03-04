@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="36079e1f-3df8-4423-b666-5da9db4b8e43">
+  <producedTypes>
+    <selectionType typeId="bc293c54-739f-4df9-b8c8-f79a7ecb37a7" valueTypeId="fe0f4e98-6ff7-47ab-a961-bf0525b4fe36"/>
+    <listType typeId="49a31f04-4301-4737-91b2-0b8a7e4ec3b3" valueTypeId="ff288b31-a4b3-433e-a114-0598bd094cef"/>
+    <managerType typeId="92672b34-e539-4775-a4a3-aab7c9708c18" valueTypeId="e9114329-7ad4-4bf6-9a60-88ccaf1457d1"/>
+    <recordSetType typeId="b1e87d56-bcdb-41e5-ab3b-f7cd3354b752" valueTypeId="d72eb3f5-8689-4dad-bf1e-4eec92884705"/>
+    <recordKeyType typeId="1959ba70-69a0-48d7-8778-b8c6dc403bca" valueTypeId="2cfa549a-cbab-4def-8080-63bc585bd508"/>
+    <recordType typeId="00aa1a33-695c-4e32-8366-bfe032a2436e" valueTypeId="b2f477db-03b4-4aa6-b5f7-31125ce3c452"/>
+    <recordManagerType typeId="b5e6f302-a773-47fe-bd3e-73985e0c691d" valueTypeId="664b6a6f-7b4f-4cbf-81e8-facefd5c1edd"/>
+  </producedTypes>
+  <name>ЦеныАвтомобилей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Цены автомобилей</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="5bb44373-6971-44d1-81e4-7794efeb5911">
+    <name>Цена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Цена</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="501cc2b6-86d0-405c-9487-744174c726c2">
+    <name>Автомобили</name>
+    <synonym>
+      <key>ru</key>
+      <value>Автомобили</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Автомобили</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="d3c82a85-b145-490a-bdbb-10cbde00f426">
+    <name>Дата</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

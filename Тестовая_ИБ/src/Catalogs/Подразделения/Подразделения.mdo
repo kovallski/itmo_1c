@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7f33300d-aaac-4847-99c0-a11bcbd70d8e">
+  <producedTypes>
+    <objectType typeId="3d2efe05-634c-42f4-b9e3-b7065cf1af81" valueTypeId="f5dc1cf2-75e7-481c-b963-cf5c02b91641"/>
+    <refType typeId="6ab2742a-3704-4629-9d97-e938fbde87c8" valueTypeId="830be73a-4462-48b4-ab3d-df8cfd8a643f"/>
+    <selectionType typeId="23f1e03d-9f8f-4ec0-9787-424ca8fa0170" valueTypeId="07a8c335-f0b3-4be5-9d78-3a3141e16dd9"/>
+    <listType typeId="5070ce5a-2da8-4fb9-a07d-3ef52011769c" valueTypeId="fc3a1ee4-2b57-4b14-b183-7590f77469a4"/>
+    <managerType typeId="4938757e-bac9-4645-80d4-de9897e673e6" valueTypeId="b9b70237-c3bc-4811-8e35-59c7d71de895"/>
+  </producedTypes>
+  <name>Подразделения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Подразделения</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Подразделения.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Подразделения.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <hierarchical>true</hierarchical>
+  <hierarchyType>HierarchyOfItems</hierarchyType>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="94abd1fa-fb50-477d-a864-d86f047558c5">
+    <name>Руководитель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Руководитель подразделения</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>25</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

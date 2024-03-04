@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="38cb69cc-8317-4137-95c7-6648f22ea673">
+  <producedTypes>
+    <objectType typeId="d22ec65f-18fc-4e7f-bbfe-722017a6e06a" valueTypeId="fb785273-5cbc-4405-b658-075bd15d8755"/>
+    <refType typeId="74312ea8-c60f-445f-9cae-7a0a0603421b" valueTypeId="0d329298-0055-4d61-a9d5-366ab5ebb301"/>
+    <selectionType typeId="cbe356a0-f30e-430e-af0b-d071c7560e0e" valueTypeId="5fcaad2c-c42b-4baa-bfb2-652e616b932d"/>
+    <listType typeId="c6b0b07e-8400-4541-b80a-c84b4f7c6024" valueTypeId="262e7578-e849-4610-b7ab-e4095e8af5df"/>
+    <managerType typeId="40deead0-76c5-4c73-8be4-8bcc3dcebc44" valueTypeId="7aeb3227-3d3c-41a9-a654-a231fb0a8409"/>
+  </producedTypes>
+  <name>Автомобили</name>
+  <synonym>
+    <key>ru</key>
+    <value>Автомобили</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Автомобили.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Автомобили.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="822d9b3e-ffaa-4bdd-9d72-dbf917f01236">
+    <name>Собственник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Собственник</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>25</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="07579eff-893c-4bd8-9f57-e39089a53fbf">
+    <name>Вместимость</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вместимость</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>
